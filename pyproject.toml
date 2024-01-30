@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "preagent"
+version = "0.1.0"
+description = ""
+authors = ["vela <zhongzhen@outlook.jp>"]
+readme = "README.md"
+packages = [{include = "preagent", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.0"
+lancedb = "^0.5.1"
+langchain = "^0.1.4"
+transformers = "^4.37.2"
+openai = "^1.10.0"
+datasets = "^2.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
