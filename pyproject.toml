@@ -18,6 +18,7 @@ python-dotenv = "^1.0.1"
 ipykernel = "^6.29.0"
 dvc = "^3.42.0"
 langchain-openai = "^0.0.5"
+gradio = "^4.16.0"
 
 
 [build-system]
